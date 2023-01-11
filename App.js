@@ -6,15 +6,12 @@ import { BrowserRouter as Router, Link, Route, Routes } from 'react-router-dom';
 
 const App = () => {
   return (
+    <Router>
     <main className="wrapper">
       <Header />
-      <Suspense fallback={null}>
-        <Routes>
-          <Route path="home" element={<Home />} />
-          <Route path="experiences" element={<Home />} />
-        </Routes>
-      </Suspense>
+      <Home />
     </main>
+    </Router>
   );
 };
 
