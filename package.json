@@ -7,7 +7,8 @@
     "node-sass": "^4.13.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-lottie": "^1.2.3"
+    "react-lottie": "^1.2.3",
+    "react-router-dom": "^6.6.2"
   },
   "scripts": {
     "start": "react-scripts start",
