@@ -1,18 +1,23 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import Header from './components/Header';
 import Home from './components/Home';
+import Experiences from './components/Experiences';
 import './style.scss';
-import { BrowserRouter as Router, Link, Route, Routes } from 'react-router-dom';
+import { Link, Route, Routes } from 'react-router-dom';
 
 const App = () => {
   return (
-    <Router>
     <main className="wrapper">
       <Header />
-      <Home />
+      <Suspense fallback={null}>
+        <Routes>
+          <Route path="" element={<Home />} />
+          <Route path="home" element={<Home />} />
+          <Route path="experiences" element={<Experiences />} />
+        </Routes>
+      </Suspense>
     </main>
-    </Router>
   );
 };
 
-export default App
+export default App;
