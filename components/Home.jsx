@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Home.scss';
 
 export default () => (
@@ -11,7 +12,7 @@ export default () => (
       </h2>
     </div>
     <div className="navigation">
-      <div className="nav-card">
+      <Link to="/experiences" className="nav-card">
         <div
           className="img-card"
           style={{
@@ -20,8 +21,8 @@ export default () => (
           }}
         ></div>
         <h4>Experiences</h4>
-      </div>
-      <div className="nav-card right">
+      </Link>
+      <Link to="/projects" className="nav-card right">
         <h4>Latest projects</h4>
         <div
           className="img-card"
@@ -30,8 +31,8 @@ export default () => (
               'url(https://images.pexels.com/photos/614484/pexels-photo-614484.jpeg?auto=compress&cs=tinysrgb&w=600)',
           }}
         ></div>
-      </div>
-      <div className="nav-card">
+      </Link>
+      <Link to="/story" className="nav-card">
         <div
           className="img-card"
           style={{
@@ -40,7 +41,7 @@ export default () => (
           }}
         ></div>
         <h4>Story</h4>
-      </div>
+      </Link>
     </div>
   </>
 );
