@@ -18,14 +18,17 @@
 .swiper-button-prev,
 .swiper-button-next {
   &:after {
+    display: none;
+  }
+  &:before {
     font-family: 'Tourney';
     font-size: 4em;
   }
 }
-.swiper-button-prev:after {
+.swiper-button-prev:before {
   content: '<';
 }
-.swiper-button-next:after {
+.swiper-button-next:before {
   content: '>';
 }
 .swiper-content {
