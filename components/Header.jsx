@@ -5,7 +5,6 @@ import './Header.scss';
 export default () => {
   const location = useLocation();
   const isIndex = location.pathname === '/index' || location.pathname === '/'
-  console.log(location.pathname, isIndex)
   return (
     <div className="header">
       <h1>helloimela.com</h1>

@@ -129,6 +129,10 @@ h3.title {
     top: -10px;
   }
 }
+.swiper-wrapper {
+  display: flex;
+  align-items: center;
+}
 .swiper-button-prev,
 .swiper-button-next {
   &:after {

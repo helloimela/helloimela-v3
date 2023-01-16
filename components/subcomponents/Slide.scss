@@ -20,6 +20,8 @@
   }
   .story-img {
     display: none;
+    background-position: center;
+    background-size: cover;
     &:after {
       content: '';
       position: absolute;

@@ -6,8 +6,18 @@ import Slide from './subcomponents/Slide';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import { stories } from '../data/story';
+import Lottie from 'react-lottie';
+import animationData from '../assets/surfing';
 
 const Story = () => {
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: 'xMidYMid slice',
+    },
+  };
   return (
     <div className="opening-text">
       <h1>story</h1>
@@ -19,9 +29,16 @@ const Story = () => {
               subtitle={story.subtitle}
               title={story.title}
               content={story.content}
+              image={story?.image}
             />
           </SwiperSlide>
         ))}
+        <SwiperSlide className="last-slide">
+          <h2 className="title">What's next?</h2>
+          <h3 className="title">Surfing</h3>
+          <Lottie options={defaultOptions} height={400} width={400} />
+          <p className="quotes">"If you never try, you'll never know,<br /> baby how far this thing could go"</p>
+        </SwiperSlide>
       </Swiper>
     </div>
   );

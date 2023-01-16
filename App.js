@@ -1,5 +1,6 @@
 import React, { Suspense } from 'react';
 import Header from './components/Header';
+import Footer from './components/Footer';
 import Home from './components/Home';
 import Timeline from './components/Timeline';
 import Story from './components/Story';
@@ -20,6 +21,7 @@ const App = () => {
           <Route path="story" element={<Story />} />
         </Routes>
       </Suspense>
+      <Footer />
     </main>
   );
 };
