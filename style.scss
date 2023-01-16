@@ -6,6 +6,7 @@
   padding: 0;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
+  position: relative;
 }
 html {
   font-size: 16px;
@@ -46,7 +47,8 @@ body {
     letter-spacing: 0.02em;
     font-size: 3em;
   }
-  h2, h3 {
+  h2,
+  h3 {
     font-weight: 300;
     margin-top: 20px;
     letter-spacing: -1px;
@@ -58,7 +60,7 @@ body {
   font-weight: 400;
   font-style: italic;
   letter-spacing: -0.06em;
-  line-height: 0.3em;
+  line-height: 0.6em;
 }
 h2.title {
   position: relative;
@@ -172,5 +174,11 @@ h3.title {
   }
   100% {
     background-position: 0% 50%;
+  }
+}
+
+@media screen and (min-width: 460px) {
+  .title {
+    line-height: 0.3em;
   }
 }

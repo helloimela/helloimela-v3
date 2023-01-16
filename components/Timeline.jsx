@@ -6,7 +6,7 @@ const Timeline = () => {
     <div className="opening-text">
       <h1>experience</h1>
       <h3>
-        I've been working as a frontend developer for 7+ years with experiences
+        I've been working as a frontend developer for 7+ years with experience
         in Javascript, Typescript, HTML/CSS, SCSS, PostCSS, React, design
         system, automated testing, and software development lifecycle.
       </h3>

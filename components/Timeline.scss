@@ -1,7 +1,7 @@
 .timeline {
   list-style: none;
   margin-top: 80px;
-  padding: 0 20px 0 80px;
+  padding: 0 20px 0 50px;
   position: relative;
   max-width: 800px;
   &:before {
@@ -29,7 +29,7 @@
       background-color: #ccc;
       opacity: 0.8;
       border-radius: 50%;
-      left: -68px;
+      left: -38px;
       top: 0px;
     }
     .year {
@@ -44,4 +44,13 @@
   font-family: serif;
   font-weight: normal;
   font-style: italic;
+}
+
+@media screen and (min-width: 460px) {
+  .timeline {
+    padding-left: 80px;
+    li:before {
+      left: -68px;
+    }
+  }
 }
