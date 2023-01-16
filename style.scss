@@ -79,70 +79,6 @@ h3.title {
   font-size: 1.2em;
 }
 
-.navigation {
-  .nav-card {
-    margin: 40px 30px;
-    border-radius: 3px;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    cursor: pointer;
-    .img-card {
-      width: 100%;
-      max-width: 400px;
-      height: 100px;
-      background-size: 100%;
-      background-position: center;
-      transition: background-size 3000ms cubic-bezier(0.075, 0.82, 0.165, 1);
-      border-radius: 5px;
-    }
-    h4 {
-      font-family: serif;
-      font-weight: 400;
-      font-size: 1.8em;
-      font-style: italic;
-      letter-spacing: -0.06em;
-      width: 100%;
-      text-align: left;
-      padding-left: 20px;
-      z-index: 1;
-      position: relative;
-      transition: padding 2000ms cubic-bezier(0.075, 0.82, 0.165, 1);
-      &:after {
-        content: '';
-        position: absolute;
-        width: 150%;
-        border-bottom: 1px solid #ccc;
-        bottom: -5px;
-        left: -50%;
-      }
-    }
-    &.right {
-      h4 {
-        padding-left: 0;
-        padding-right: 20px;
-        text-align: right;
-        &:after {
-          left: 0;
-        }
-      }
-    }
-    &:hover {
-      .img-card {
-        background-size: 130%;
-      }
-      h4 {
-        padding-left: 2px;
-      }
-      &.right h4 {
-        padding-right: 5px;
-      }
-    }
-  }
-}
 @-webkit-keyframes AnimationName {
   0% {
     background-position: 0% 50%;
@@ -177,8 +113,49 @@ h3.title {
   }
 }
 
+.swiper {
+  width: 100%;
+  margin-top: 40px;
+  border: 1px solid #ccc;
+  --swiper-navigation-color: #fff;
+
+  &:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #ccc;
+    left: -10px;
+    top: -10px;
+  }
+}
+.swiper-button-prev,
+.swiper-button-next {
+  &:after {
+    display: none;
+  }
+  &:before {
+    font-family: 'Tourney';
+    font-size: 4em;
+  }
+}
+.swiper-button-prev:before {
+  content: '<';
+}
+.swiper-button-next:before {
+  content: '>';
+}
+
 @media screen and (min-width: 460px) {
   .title {
     line-height: 0.3em;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .swiper {
+    &:before {
+      display: none;
+    }
   }
 }

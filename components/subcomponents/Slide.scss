@@ -15,6 +15,9 @@
   .item {
     flex-grow: 1;
   }
+  .first-paragraph {
+    margin-bottom: 20px;
+  }
   .story-img {
     display: none;
     &:after {
@@ -30,7 +33,7 @@
   }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) {
   .content-wrapper {
     .story-img {
       display: block;
