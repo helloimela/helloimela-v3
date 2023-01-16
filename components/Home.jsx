@@ -12,7 +12,7 @@ export default () => (
       </h2>
     </div>
     <div className="navigation">
-      <Link to="/experiences" className="nav-card">
+      <Link to="/timeline" className="nav-card">
         <div
           className="img-card"
           style={{
@@ -20,7 +20,7 @@ export default () => (
               'url(https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&w=600)',
           }}
         ></div>
-        <h4>Experiences</h4>
+        <h4>Experience</h4>
       </Link>
       <Link to="/projects" className="nav-card right">
         <h4>Latest projects</h4>

@@ -8,7 +8,7 @@ import 'swiper/css/navigation';
 const Experiences = () => {
   return (
     <div className="opening-text">
-      <h1>experiences</h1>
+      <h1>experience</h1>
       <h3>
         I've been working as a frontend developer for 7+ years with experiences
         in Javascript, Typescript, HTML/CSS, SCSS, PostCSS, React, design
