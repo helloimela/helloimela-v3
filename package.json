@@ -1,6 +1,6 @@
 {
-  "name": "react",
-  "version": "0.0.0",
+  "name": "helloimela-v3",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.2.1",
@@ -22,5 +22,17 @@
   },
   "devDependencies": {
     "react-scripts": "latest"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

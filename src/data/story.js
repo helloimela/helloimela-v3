@@ -3,7 +3,7 @@ export const stories = [
     subtitle: '19 years ago',
     title: 'How it was started',
     content:
-      'My first encounter with web development was when I was 13 years old. I learned to build a website using Microsoft Frontpage &amp; Dreamweaver, building HTML layout using tables. I even won several web design competitions during my junior high school time. Since then, I loved web design and everything related to web development. Now that I think about it, it’s amazing to see how web technology always evolving. From table layout now we can easily create layout with CSS grid.',
+      'My first encounter with web development was when I was 13 years old. I learned to build a website using Microsoft Frontpage & Dreamweaver, building HTML layout using tables. I even won several web design competitions during my junior high school time. Since then, I loved web design and everything related to web development. Now that I think about it, it’s amazing to see how web technology always evolving. From table layout now we can easily create layout with CSS grid.',
     image: 'https://helloimela.com/images/000035.JPG',
   },
   {
@@ -45,21 +45,21 @@ export const stories = [
     subtitle: '5 years ago',
     title: 'Dip into the water',
     content:
-      'My journey continued with a thesis work at Scania. The topic was “Linked Data Visualisation”. For this thesis work, I did a lot of user research and built a prototype with 3d.js. Now at this stage, I feel that I learned a lot in these 2 big companies. How the working culture in Sweden, and what makes Stockholm such a perfect place as a tech-hub. Many companies in Stockholm are not refrain themselves from transforming towards digital world. They keep being the leader in their area because they are adapting and transforming.',
+      'My journey continued with a thesis work at Scania. The topic was “Linked Data Visualisation”. For this thesis work, I did a lot of user research and built a prototype with 3d.js. Now at this stage, I feel that I learned a lot in these 2 big companies. How the working culture in Sweden, and what makes Stockholm such a perfect place as a tech-hub. Many companies in Stockholm are not afraid to transform towards digital world. They keep being the leader in their area because they are adapting and transforming and having a goal in the future.',
     image: 'https://helloimela.com/images/water.png',
   },
   {
     subtitle: '3 years ago',
     title: 'Start swimming',
     content:
-      'My journey at Scania did not ended there. I continued to work as an employee for another 3 years. I worked for the Design System team, where we tried to establish a design system that was never existed before. I was working a lot with developing web components with StencilJS and then providing the solution for other developers in different frameworks. We used Strapi Headless CMS and GraphQL to have a presentation website.',
+      'My journey at Scania did not ended there. I continued to work as an employee for another 3 years. I worked for the Design System team, where we tried to establish a design system that was never existed before. I was working a lot with developing web components with StencilJS and then providing the solution for other developers in different frameworks. We used Strapi Headless CMS and GraphQL to create a presentation website.',
     image: 'https://helloimela.com/images/000038.JPG',
   },
   {
     subtitle: 'present',
     title: 'Go diving',
     content:
-      'I joined H&M in 2021 in a newly built team working to create a new feature around style inspiration. We develop a new fature for hm.com website and launch our feature in several markets. I was working a lot with React, Typescript, and A/B testing. We collaborated a lot in the team to plan and build the feature from scratch. I enjoyed this process a lot and we were able to ship the new feature within a short period with a big "bang". Now I am stil working at H&amp;M to work with campaign features.',
+      'I joined H&M in 2021 in a newly built team working to create a new feature around style inspiration. We develop a new fature for hm.com website and launch our feature in several markets. I was working a lot with React, Typescript, and A/B testing. We collaborated a lot in the team to plan and build the feature from scratch. I enjoyed this process a lot and we were able to ship the new feature within a short period.',
     image: 'https://helloimela.com/images/norway.png',
   },
 ];

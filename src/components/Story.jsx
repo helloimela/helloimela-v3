@@ -36,6 +36,7 @@ const Story = () => {
         <SwiperSlide className="last-slide">
           <h2 className="title">What's next?</h2>
           <h3 className="title">Surfing</h3>
+          <h3 className="title subcontent">My journey did not end here. I love what I am doing. I want to keep challenging myself and continue building amazing stuff!</h3>
           <Lottie options={defaultOptions} height={400} width={400} />
           <p className="quotes">"If you never try, you'll never know,<br /> baby how far this thing could go"</p>
         </SwiperSlide>

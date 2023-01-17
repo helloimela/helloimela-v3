@@ -1,3 +1,3 @@
 # helloimela-v3
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/helloimela-v3)
+[helloimela.com ⚡️](https://helloimela.com/)
