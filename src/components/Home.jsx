@@ -7,8 +7,8 @@ export default () => (
     <div className="opening-text">
       <h1>hello, i am ela</h1>
       <h2>
-        Creative web developer
-        <br /> with passion in UI/UX
+      Dive into my portfolio, where pixels meet purpose. 
+        <br /> As a Frontend Engineer, I specialize in clean,<br/> efficient code that transforms design concepts into smooth, user-friendly interfaces
       </h2>
     </div>
     <div className="navigation">

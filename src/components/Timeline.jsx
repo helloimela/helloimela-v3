@@ -7,12 +7,22 @@ const Timeline = () => {
       <h1>experience</h1>
       <h3>
         I've been working as a frontend developer for 7+ years with experience
-        in Javascript, Typescript, HTML/CSS, SCSS, PostCSS, React, design
+        in Javascript, Typescript, React, NextJS, HTML/CSS, SCSS, PostCSS, design
         system, automated testing, and software development lifecycle.
       </h3>
       <ul className="timeline">
+      <li>
+          <div className="year">2023-present</div>
+          <div className="work">
+            <h2 className="title">Regent AB</h2>
+            <p>
+              Frontend developer consultant, working on different frontend projects, helping out companies and team to build efficient frontend solution.
+            </p>
+            <p className="skills">React, Typescript, SCSS, Unit test, Jest, A/B Testing, Git, CI/CD</p>
+          </div>
+        </li>
         <li>
-          <div className="year">2021-present</div>
+          <div className="year">2021-2023</div>
           <div className="work">
             <h2 className="title">H&amp;M Group</h2>
             <p>
