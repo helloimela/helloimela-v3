@@ -8,7 +8,7 @@ export default () => (
       <h1>hello, i am ela</h1>
       <h2>
       Dive into my portfolio, where pixels meet purpose. 
-        <br /> As a Frontend Engineer, I specialize in clean,<br/> efficient code that transforms design concepts into smooth, user-friendly interfaces
+        <br /> As a Frontend Engineer, I specialize in clean,<br/> efficient code that transforms design concepts into smooth, user-friendly interfaces.
       </h2>
     </div>
     <div className="navigation">
@@ -41,6 +41,16 @@ export default () => (
               'url(https://helloimela.com/images/Img2.png)',
           }}
         ></div>
+      </Link>
+      <Link to="https://blog.helloimela.com/" target='_blank' className="nav-card left">
+      <div
+          className="img-card"
+          style={{
+            backgroundImage:
+              'url(https://helloimela.com/images/blog.jpg)',
+          }}
+        ></div>
+        <h4>Blog</h4>
       </Link>
     </div>
   </>
